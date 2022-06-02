@@ -1,0 +1,193 @@
+
+a {
+    font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+    color: black;   
+    padding-left: 8px; 
+    text-decoration: none;
+}
+a:hover{ 
+    text-decoration-line: underline;
+}
+.sign_in{
+    width: 96px;
+    height: 36px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    margin-left: 15px;
+}
+#ll {
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 1050px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+}
+img{
+    width: 272px;
+    height: 92px;
+    margin-left: 500px;
+    margin-top: 120px;
+}
+
+.search_box{
+    width: 320px;
+    height: 39px;
+    margin-left: 460px;
+    margin-top: 20px;
+    border: 1px solid lightgrey;
+    border-left-color: white;
+    text-align: left; 
+    position: absolute;
+    border-right-color: white;
+    
+}
+.search_box:focus{
+    outline: 0px;
+}
+
+.search_box:hover{
+    box-shadow: 1px 1px 1px 1px lightgrey;
+}
+form{
+    display: inline;
+    padding-left: 1px;
+}
+
+
+%Buttons{
+    font-family: Arial;
+    font-size: medium;
+    border-color: white;
+    background-color: white;
+    width: 139px;
+    height: 36px; 
+    margin-top: 40px;
+}
+%Buttons:hover{
+    border-color: grey;
+}
+#S_button{
+    @extend %Buttons ;
+    margin-top: 7px;
+    margin-left: 500px;
+}
+#lucky{
+    @extend %Buttons ;
+    margin-left: 20px;
+}
+.btn{
+    margin-top: 19.78px;
+    margin-left: 420px;
+    border: 1px solid lightgrey;
+    border-right-color: white;
+    height: 43px;
+    background-color: white;
+    width: 47px;
+    text-align: center;
+    i{
+        color: grey;
+        text-align: center;
+    }
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    position: absolute;
+}
+.btn:hover{
+    box-shadow: 1px 1px  lightgrey;
+    }
+
+label{
+    position: relative;
+    }
+%last_divs{
+    height: 30px;
+    background-color: rgb(245, 240, 240);
+    color: grey;
+}
+
+.second_last_div{
+    @extend %last_divs;
+    margin-top: 160px;
+    text-align: left;
+    padding-top: 24px;
+    padding-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.last_div{
+    @extend%last_divs;
+    border-top-color: rgb(228, 227, 227);
+    border-top-style: solid;
+    text-align: right;
+    padding-top: 24px;
+    padding-right: 30px;
+}
+
+.last_div >a{
+    color: grey;
+    margin-right: 20px;
+}
+%icon_{
+    height: 43px;
+    position: relative;
+    border: 1px solid lightgrey;
+    background-color: white;
+    font-size: 23px
+}
+
+
+#camera{
+    @extend%icon_;
+    border-left-color: white;
+    color: grey;
+    margin-left: 745px;
+    margin-top: 20px;
+    width: 170px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#mic{
+    @extend%icon_;
+    width: 100px;
+    margin-left: 784px;
+    margin-top: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-left-color: white;
+}
+.left_p{
+    font-family: Arial;
+    position: relative;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    position: absolute;
+}
+.text_search{
+    position: relative;
+    width: 529px;
+    height: 25px;
+    margin-left: 210px;
+    border: 1px solid lightgrey;
+}
+.leftys{
+    font-size: 13px;
+    margin-left: 20px;
+    position: relative;
+}
+#lucky_2{
+    color: white;
+    font-family: Arial;
+    font-size: medium;
+    border-color: white;
+    background-color: blue;
+    width: 139px;
+    height: 36px; 
+    margin-top: 40px;margin-left: 600px;
+}
+

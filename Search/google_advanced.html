@@ -1,0 +1,56 @@
+<!--Tshepiso Ncosane(aka Intel/Ntala)-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced_Search</title>
+        <link rel="stylesheet" href="Sass.css">
+        <link rel="stylesheet" href="all.min.css">
+    </head>
+    <body>
+        <div>
+            <a href="google_search.html" target="_top" > <img  src="googleimage.png" alt="google pic"
+              style="width: 75px; height: 25px; margin-top: 10px; margin-left: 10px; position: absolute;" ></a>
+              <a href="google_image.html" target="_top" style="position: absolute;"><p style="position: relative; margin-left: 1150px;margin-bottom: 20px;">Images</p></a>
+              <form action="https://accounts.google.com/signin/v2/identifier?hl=en" >
+                <button class="sign_in" type="submit" style="margin-left: 1219px;">Sign in</button></form>
+        </div>
+        <div style="height: 50px;padding-top: 43px;
+        padding-left: 30px;font-size: 21px; color: red;font-family: Arial, Helvetica, sans-serif;border-bottom: 1px solid lightgrey;">
+            Advanced Search
+        </div>
+    <form method="get" action="http://google.com/search" >
+        <div style="height: 230px;border-bottom: 1px solid lightgrey;">
+            <div>
+                <label class="left_p" >Find pages with...</label>
+            </div>
+        
+            <div style="margin-top: 50px; position: absolute;"> 
+                <label class="leftys" style="margin-top: 50px;">all these words: </label>
+            </div>
+            <div>
+                <input class="text_search" type="text" name="as_q" style="margin-top: 48px;">
+            </div>
+            <div style="margin-top: 15px; position: absolute;"> 
+                <label class="leftys" >this exact word or phrase: </label>
+            </div>
+            <div>
+                <input class="text_search" type="text" name="as_epq" style="margin-top: 10px;">
+            </div>
+            <div style="margin-top: 15px; position: absolute;"> 
+                <label class="leftys" >any of these words: </label>
+            </div>
+            <div>
+                <input class="text_search" type="text" name="as_oq" style="margin-top: 10px;">
+            </div>
+            <div style="margin-top: 15px; position: absolute;"> 
+                <label class="leftys" >none of these words: </label>
+            </div>
+            <div>
+                <input class="text_search" type="text" name="as_eq" style="margin-top: 10px;">
+            </div>
+        </div>
+        <input id="lucky_2" type="submit" value="Advanced Search">
+    </form>
+
+    </body>
+</html>
